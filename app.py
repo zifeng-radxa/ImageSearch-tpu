@@ -36,7 +36,7 @@ if __name__ == '__main__':
     glo_config._init()
     glo_config.set_value('lang', lang)
     import clip_image_search.clip as clip
-    st.sidebar.title('ImgSearch with Airbox⚡👀')
+    st.sidebar.title('ImgSearch with BM1684M⚡👀')
 
     device = 0
     model, preprocess = load_clip(lang, device)
